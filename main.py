@@ -58,7 +58,7 @@ if __name__ == '__main__':
     if args.verbose:
         args_dict = vars(args)
         for key in sorted(args_dict):
-            print "%10s = %s" % (key, str(args_dict[key])) 
+            print("%10s = %s" % (key, str(args_dict[key]))) 
         
 #pydce.run_model(args.dcefile, args.t1file, args.t1_flip, R=args.R, 
 #               TR=args.TR, dce_flip=args.dce_flip, 
